@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TiDelete } from "react-icons/ti";
+import PropTypes from "prop-types";
 // import { connect } from "react-redux"
 // import * as courseActions from "../../redux/actions/courseActions";
-import PropTypes from "prop-types";
-import { deleteCourse } from "../../api/courseApi";
+// import { deleteCourse } from "../../api/courseApi";
 // import { bindActionCreators } from "redux";
 
 const CourseList = ({ courses, onDeleteClick }) => (

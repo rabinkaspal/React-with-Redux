@@ -40,7 +40,7 @@ function ManageCoursePage({
                 alert("Load Author failed " + error);
             });
         }
-    }, []);
+    }, [authors, loadAuthors]);
 
     function handleChange(event) {
         const { name, value } = event.target;
