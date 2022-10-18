@@ -1,12 +1,12 @@
-import React from "react"
-import { Route, Switch } from "react-router-dom"
-import PageNotFound from "./404/PageNotFound"
-import AboutPage from "./about/AboutPage"
-import AuthorsPage from "./authors/AuthorsPage"
-import Header from "./commons/Header"
-import CoursesPage from "./courses/CoursesPage"
-import ManageCoursePage from "./courses/ManageCoursePage"
-import HomePage from "./home/HomePage"
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import PageNotFound from "./404/PageNotFound";
+import AboutPage from "./about/AboutPage";
+import AuthorsPage from "./authors/AuthorsPage";
+import Header from "./commons/Header";
+import CoursesPage from "./courses/CoursesPage";
+import ManageCoursePage from "./courses/ManageCoursePage";
+import HomePage from "./home/HomePage";
 
 function App() {
     return (
@@ -24,7 +24,7 @@ function App() {
                 </Switch>
             </div>
         </div>
-    )
+    );
 }
 
-export default App
+export default App;
